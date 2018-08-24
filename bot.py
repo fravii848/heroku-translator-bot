@@ -29,7 +29,7 @@ def on_chat_message(msg):
         except Exception as e:
             print(e)
 
-        bot.sendMessage(chat_id, "Il messaggio inviato è di tipo vocale!")
+        bot.sendMessage(chat_id, "Il messaggio inviato è di tipo vocale")
         print('Utente: %s'%name)
         if lon > 1:
             print('Lunghezza audio: %d'%lon,'secondi')
