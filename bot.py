@@ -1,4 +1,5 @@
 #Data creazione 21/08/2018
+# coding=utf-8
 
 import telepot
 import subprocess
