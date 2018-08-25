@@ -22,6 +22,7 @@ def on_chat_message(msg):
             recognizer_instance.pause_threshold = 3.0
             audio = recognizer_instance.listen(source)
             print('Elaborazione messaggio in corso...')
+            bot.sendMessage(chat_id, "Elaborazione...")
 
         try:
             text = recognizer_instance.recognize_google(audio, language="it-IT")
