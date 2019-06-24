@@ -42,7 +42,7 @@ def on_callback_query(msg):
         bot.answerCallbackQuery(query_id, text=query_data + "Impostato come lingua di origine")
 
 #Creazione del BOT
-TOKEN = ""
+TOKEN = "843667392:AAH3DNUEM5oPdcNW14OrAxvgX3k5duiZisc"
 bot = telepot.Bot(TOKEN)
 bot.message_loop({'chat': on_chat_message, 'callback_query': on_callback_query})
 
